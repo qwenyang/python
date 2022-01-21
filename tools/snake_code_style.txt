@@ -1,0 +1,12 @@
+// 事件中心基础信息--事件信息 对应微信事件中心 TEvcpub 表字段
+export interface EvcPub {
+  order_id: number,   
+  evcpub_id: number,
+}
+
+export interface EvcTopic {
+  product_line_id: number,
+  product_topic_id: number,
+  productid: number,
+  evc_pub: EvcPub,
+}
